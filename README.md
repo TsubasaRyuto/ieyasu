@@ -20,8 +20,8 @@ brew cask install chromedriver
 ```
 
 ### moduleのインストール
-* リポジトリーのclone済みが前提とする
-* ディレクトリも移動済みとする
+* リポジトリーはclone済みとする
+* ディレクトリは移動済みとする
 ```
 pipenv install 
 ```
