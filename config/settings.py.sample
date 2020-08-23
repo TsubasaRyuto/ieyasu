@@ -1,0 +1,12 @@
+SETTINGS = {
+  'ieyasu_url': 'https://ieyasu.co/branu/login',
+  'login_id': 'login id',
+  'login_pass': 'password',
+  'only_9_oclock': False,
+  'work_start1': '09:00',
+  'work_end1': '18:00',
+  'work_start2': '10:00',
+  'work_end2': '19:00',
+  'break_start': '13:00',
+  'break_end': '14:00'
+}
