@@ -35,12 +35,15 @@ work_navi = driver.find_element_by_id('work_navi')
 work_navi.click()
 
 # 月選択
-select_month = driver.find_element_by_id('select')
-select_month_element = Select(select_month)
-select_month_element.select_by_value(dt_now.strftime('%Y-%m'))
+# select_month = driver.find_element_by_id('select')
+# select_month_element = Select(select_month)
+# select_month_element.select_by_value(dt_now.strftime('%Y-%m'))
+
+
 
 # 登録処理
 attendance_table = driver.find_element_by_id("editGraphTable")
+
 table_body = attendance_table.find_element_by_tag_name("tbody")
 table_trs = table_body.find_elements_by_tag_name('tr')
 
