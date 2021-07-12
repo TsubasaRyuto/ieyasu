@@ -1,5 +1,5 @@
 SETTINGS = {
-  'ieyasu_url': 'https://ieyasu.co/branu/login',
+  'ieyasu_url': 'https://ieyasu.co/xxxs/login',
   'login_id': 'login id',
   'login_pass': 'password',
   'only_9_oclock': False,
