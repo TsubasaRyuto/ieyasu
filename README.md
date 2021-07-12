@@ -32,9 +32,10 @@ cp config/settings.py.sample config/settings.py
 ```
 ### settingsの修正
 ```
+ieyasu_url → loginURLをセットする
 login_id →　自分のieyasuのuser id
 login_pass →　自分のieyasuのpassword
-only_9_oclock →　False （開発チームは基本False）
+only_9_oclock →　False
 > 「全て9時出社、18時退社」としたい場合Trueに変更
 ```
 
